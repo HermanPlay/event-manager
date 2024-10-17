@@ -1,0 +1,31 @@
+{
+	"/": [
+		"src/routes/+page.server.ts"
+	],
+	"/about": [],
+	"/auth": [],
+	"/contact": [],
+	"/events": [
+		"src/routes/events/+layout.server.ts",
+		"src/routes/events/+layout.server.ts"
+	],
+	"/events/edit/[slug]": [
+		"src/routes/events/edit/[slug]/+page.server.ts",
+		"src/routes/events/+layout.server.ts"
+	],
+	"/events/new": [
+		"src/routes/events/new/+page.server.ts",
+		"src/routes/events/+layout.server.ts"
+	],
+	"/events/[slug]": [
+		"src/routes/events/[slug]/+page.server.ts",
+		"src/routes/events/+layout.server.ts"
+	],
+	"/not-allowed": [],
+	"/signout": [
+		"src/routes/signout/+page.server.ts"
+	],
+	"/users": [
+		"src/routes/users/+page.server.ts"
+	]
+}
