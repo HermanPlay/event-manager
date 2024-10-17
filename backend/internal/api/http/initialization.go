@@ -86,7 +86,7 @@ func Init(cfg *config.Config) *Initialization {
 		// Seed users
 		users := []models.User{
 			{Name: "John Doe", Email: "johndoe@example.com", Password: "password123", Role: "admin"},
-			{Name: "Jane Smith", Email: "janesmith@example.com", Password: "password123", Role: "user"},
+			{Name: "Jane Smith", Email: "janesmith@example.com", Password: "password123", Role: "manager"},
 			{Name: "Mike Johnson", Email: "mikejohnson@example.com", Password: "password123", Role: "user"},
 			{Name: "Alice Brown", Email: "alicebrown@example.com", Password: "password123", Role: "user"},
 		}
