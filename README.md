@@ -15,5 +15,5 @@ A fullstack event management web application that allows users to create, manage
 
 ## Setup
 1. Clone the repository.
-2. Run `docker-compose up` to start services.
+2. Run `docker-compose up --build -d` to start services.
 3. Access the application at `http://localhost:3000`.
