@@ -10,8 +10,8 @@ A fullstack event management web application that allows users to create, manage
 
 ## Technologies
 - **Backend:** Go, Gin
-- **Frontend:** Svelte, SvelteKit
-- **Others:** Docker, TypeScript, JavaScript
+- **Frontend:** SvelteKit (TypeScript), Tailwind
+- **Others:** Docker
 
 ## Setup
 1. Clone the repository.
